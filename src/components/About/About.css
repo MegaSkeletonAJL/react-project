@@ -1,0 +1,28 @@
+/* ...existing code... */
+
+.about {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 1.25rem;
+  color: #222;
+  background: transparent;
+  font-size: 1rem;
+  line-height: 1.65;
+  border-radius: 6px;
+  box-sizing: border-box;
+}
+
+.about p {
+  margin: 0 0 1rem 0;
+  color: var(--text-color, #333);
+  font-weight: 400;
+  text-align: left;
+  hyphens: auto;
+}
+
+@media (min-width: 768px) {
+  .about {
+    padding: 1.5rem;
+    font-size: 1.05rem;
+  }
+}
